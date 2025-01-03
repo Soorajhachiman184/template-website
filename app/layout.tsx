@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import '../public/styles/style.css';
+import '../public/styles/responsive.css'; // Responsive Styles
+import '../public/styles/style.scss'; // Responsive Styles
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
